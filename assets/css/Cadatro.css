@@ -1,0 +1,19 @@
+#solidariedade{
+list-style: none;
+font-style: inherit;
+color: #B3E509;
+position: fixed;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    display: flex!important;
+    justify-content: right;
+    
+  }
+  
+  .nav-item a:hover {
+    cursor: pointer;
+    color: #B3E509;
+    transition: all 0.4s;
+  }
+  
