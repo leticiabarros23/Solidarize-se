@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #000;
 }
 
 a {
@@ -327,7 +327,7 @@ h6 {
 }
 
 #hero p {
-  color: #45505b;
+  color: #000;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -1174,6 +1174,13 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+#footer{
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row; */
+}
 #footer {
   background: #f7f8f9;
   color: #45505b;
@@ -1195,7 +1202,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin-bottom: 0;
 }
 
 #footer .social-links {
@@ -1229,4 +1236,15 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.imagem-footer img{
+display : flex;
+justify-items: left;
+align-items: left ;
+width: 180px;
+height: 180px;
+margin: 0;
+padding: 0;
+
 }
