@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #solidariedade{
 list-style: none;
 font-style: inherit;
@@ -16,4 +22,55 @@ position: fixed;
     color: #B3E509;
     transition: all 0.4s;
   }
-  
+  span{
+    color: #B3E509;
+  }
+
+  form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 125px;
+  }
+div.input-single{
+  width: 100%;
+  margin: 30px 0;
+  position: relative;
+}
+div.input-single label{
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  color: rgb(150,150,150);
+  cursor: text;
+  transition: 0.5s ease-in-out;
+}
+
+.input-single .input{
+  width: 50%;
+  padding: 5px;
+  color: rgb(150,150,150);
+  border:0;
+  border-bottom: 2px solid rgb(200,200,200);
+  outline: 0;
+  font-size: 16px;
+}
+.input-single .input:focus,
+.input-single .input:valid{
+  border-bottom: 2px solid #B3E509;
+}
+div.input-single .input:focus ~label,
+div.input-single .input:valid ~label{
+  transform: translateY(-24px);
+  font-size: 12px;
+}
+
+div.btn button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
