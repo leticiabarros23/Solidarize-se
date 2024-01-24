@@ -949,7 +949,9 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
-
+.modal-footer label{
+  margin-right: 100px;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
