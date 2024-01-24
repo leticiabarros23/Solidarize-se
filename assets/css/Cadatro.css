@@ -68,9 +68,42 @@ div.input-single .input:valid ~label{
   transform: translateY(-24px);
   font-size: 12px;
 }
+.cadastro-causa{
+ 
+}
+
+.form-image{
+  width: 50%;
+  min-height: 50px;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 300px;
+  align-items: center;
+  border: 2px solid rgb(200,200,200);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.input-descricao{
+  width: 50%;
+  min-height: 50px;
+  background: beige;
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(200,200,200);
+  cursor: pointer;
+  border-radius: 8px;
+}
 
 div.btn button{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
+  width: 150%;
 }

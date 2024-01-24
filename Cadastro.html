@@ -60,24 +60,60 @@
         </nav>
       </section>
 
-      <form action="" class="col-6 ">
-        <div class="input-single">
-          <input required type="text" id="name" class="input">
-          <label for="name">Nome</label>
+      <section class="container-fluid d-flex">
+        <div class="cadastro-empresa col-lg-6 py-5 py-lg-0 order-2 order-lg-1">
+          <form action="" >
+            <div class="input-single">
+              <input required type="text" id="name" class="input">
+              <label for="name">Nome</label>
+            </div>
+    
+            <div class="input-single">
+              <input required type="text" id="adress" class="input" >
+              <label for="adress">Adress</label>
+            </div>
+    
+            <div class="input-single" >
+              <input required type="text" id="cnpj" class="input" >
+              <label for="cnpj">Cnpj</label>
+            </div>
+            <div class="btn"> 
+              <button type="button" class="btn btn-outline-success">Cadastrar</button>
+            </div>
+          </form>
         </div>
+        <div class="cadastro-causa col-lg-6 order-1 order-lg-2">
+          <form action="" >
+            <div class="input-single">
+              <input required type="text" id="name" class="input">
+              <label for="name">Nome da Causa</label>
+            </div>
+    
+            <div class="input-single">
+              <label for="name">Imagem</label>
+            </div>
+            <div class="form-image">
+              <input class="" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+            </div>
+            <div class="input-single" >
+              <input required type="text" id="cnpj" class="input" >
+              <label for="cnpj">Meta</label>
+            </div>
+            <div class="input-single" >
+              <label for="cnpj">Descrição</label>
+            </div>
+            <input required type="text" id="cnpj" class="input-descricao" >
+            <div class="btn"> 
+              <button type="button" class="btn btn-outline-success">Cadastrar</button>
+            </div>
 
-        <div class="input-single">
-          <input required type="text" id="adress" class="input" >
-          <label for="adress">Adress</label>
+          </form>
         </div>
+      </section>
 
-        <div class="input-single" >
-          <input required type="text" id="cnpj" class="input" >
-          <label for="cnpj">Cnpj</label>
-        </div>
-        <div class="btn"> 
-          <button type="button" class="btn btn-outline-success">Cadastrar</button>
-        </div>
-      </form>
+      
+      
+
+
 </body>
 </html>
