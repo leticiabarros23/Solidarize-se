@@ -1072,7 +1072,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 #footer .social-links {
@@ -1106,6 +1106,16 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .logo {
+    margin-bottom: 20px;
+  }
 }
 
 .imagem-footer img{
